@@ -214,7 +214,7 @@ img {
 }
 
 .mobile-menu-navigation-link {
-    font-size: 40px;
+    font-size: 20px;
     line-height: 1.175;
     letter-spacing: 0.02em;
     color: var(--title-text-color);
@@ -401,6 +401,8 @@ img {
     margin-top: -30px; */
 }
 
+
+
 .examples-text{
     text-align: start;
     padding-bottom: 60px;
@@ -408,9 +410,10 @@ img {
 }
 
 .examples>.cards {
-    flex-basis: calc(100% / 3 - 30px);
+    margin: 0 auto;
+    /* flex-basis: calc(100% / 3 - 30px);
     margin-left: 30px;
-    margin-top: 30px;
+    margin-top: 30px; */
     background: #ffffff;
     border: 1px solid #eeeeee;
     border-radius: 10px;
@@ -535,8 +538,17 @@ img {
 }
 
 .blog-text{
+    font-size: 15px;
+    line-height: 1.5;
+    font-weight: 400;
     text-align: start;
     padding-bottom: 60px;
+}
+
+@media screen and (min-width: 1200px) {
+    .blog-text {
+        font-size: 20px;
+    }
 }
 
 
